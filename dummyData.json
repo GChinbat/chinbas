@@ -1,0 +1,57 @@
+[   
+    {
+        "id": 1,
+        "contractNo": "contract_000001",
+        "code": "1910001",
+        "userName": "Ganzorig Chinbat",
+        "registerNo": "УИ95102222",
+        "email": "gan.chin@gmail.com",
+        "phoneNumber": "9991-1999",
+        "address" : "Улаанбаатар, Баянгол, 11-р хороо, 80-р байр, 24 тоот.",
+        "contractEndDate" : "2019-12-28"
+    },
+    {
+        "id": 2,
+        "contractNo": "contract_000002",
+        "code": "1910002",
+        "userName": "Бат Дорж",
+        "registerNo": "УИ95102221",
+        "email": "bat123@gmail.com",
+        "phoneNumber": "9991-2999",
+        "address" : "Улаанбаатар, Баянгол, 12-р хороо, 80-р байр, 24 тоот.",
+        "contractEndDate" : "2019-12-28" 
+    },
+    {
+        "id": 3,
+        "contractNo": "contract_000003",
+        "code": "1910003",
+        "userName": "Бат Дорж",
+        "registerNo": "УИ95092221",
+        "email": "bat1233@gmail.com",
+        "phoneNumber": "9991-2399",
+        "address" : "Улаанбаатар, Баянгол, 11-р хороо, 80-р байр, 24 тоот.",
+        "contractEndDate" : "2019-12-28"
+    },
+    {
+        "id": 4,
+        "contractNo": "contract_000004",
+        "code": "1910004",
+        "userName": "БатСүх Дорж",
+        "registerNo": "УИ95102221",
+        "email": "bat1234@gmail.com",
+        "phoneNumber": "9980-2999",
+        "address" : "Улаанбаатар, Баянгол, 12-р хороо, 81-р байр, 24 тоот.",
+        "contractEndDate" : "2019-12-29"
+    },
+    {
+        "id": 5,
+        "contractNo": "contract_000005",
+        "code": "1910005",
+        "userName": "БатСүх Дулам",
+        "registerNo": "УИ95102222",
+        "email": "bat1231@gmail.com",
+        "phoneNumber": "9914-2999",
+        "address" : "Улаанбаатар, Баянгол, 10-р хороо, 81-р байр, 24 тоот.",
+        "contractEndDate" : "2020-11-09" 
+    }
+]
