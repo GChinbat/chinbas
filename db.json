@@ -122,7 +122,15 @@
     "contractEndDate": "2020-11-09"
   }
 ],
-  "users": {
-    "name": "chinbat"
-  }
+  "users": [
+    {
+    "id" : 1,
+    "contractNo": "contract_000011",
+    "code": "1910011",
+    "userName": "Ану Бат",
+    "registerNo": "УИ95102371",
+    "email": "bat1231@gmail.com",
+    "phoneNumber": "8814-2999"
+    }
+  ]
 }
