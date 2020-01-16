@@ -1,136 +1,417 @@
 {
-  "contracts": [
-  {
-    "id": 1,
-    "contractNo": "contract_000001",
-    "code": "1910001",
-    "userName": "Ganzorig Chinbat",
-    "registerNo": "УИ95102222",
-    "email": "gan.chin@gmail.com",
-    "phoneNumber": "9991-1999",
-    "address": "Улаанбаатар, Баянгол, 11-р хороо, 80-р байр, 24 тоот.",
-    "contractEndDate": "2019-12-28"
-  },
-  {
-    "id": 2,
-    "contractNo": "contract_000002",
-    "code": "1910002",
-    "userName": "Бат Дорж",
-    "registerNo": "УИ95102221",
-    "email": "bat123@gmail.com",
-    "phoneNumber": "9991-2999",
-    "address": "Улаанбаатар, Баянгол, 12-р хороо, 80-р байр, 24 тоот.",
-    "contractEndDate": "2019-12-28"
-  },
-  {
-    "id": 3,
-    "contractNo": "contract_000003",
-    "code": "1910003",
-    "userName": "Бат Дорж",
-    "registerNo": "УИ95092221",
-    "email": "bat1233@gmail.com",
-    "phoneNumber": "9991-2399",
-    "address": "Улаанбаатар, Баянгол, 11-р хороо, 80-р байр, 24 тоот.",
-    "contractEndDate": "2019-12-28"
-  },
-  {
-    "id": 4,
-    "contractNo": "contract_000004",
-    "code": "1910004",
-    "userName": "БатСүх Дорж",
-    "registerNo": "УИ95102201",
-    "email": "bat1234@gmail.com",
-    "phoneNumber": "9980-2999",
-    "address": "Улаанбаатар, Баянгол, 12-р хороо, 81-р байр, 24 тоот.",
-    "contractEndDate": "2019-12-29"
-  },
-  {
-    "id": 5,
-    "contractNo": "contract_000005",
-    "code": "1910005",
-    "userName": "БатСүх Дулам",
-    "registerNo": "УИ94102222",
-    "email": "bat1231@gmail.com",
-    "phoneNumber": "9914-2999",
-    "address": "Улаанбаатар, Баянгол, 10-р хороо, 81-р байр, 24 тоот.",
-    "contractEndDate": "2020-11-09"
-  },
-  {
-    "id": 6,
-    "contractNo": "contract_000006",
-    "code": "1910006",
-    "userName": "БатСүх Дулам",
-    "registerNo": "УИ88102222",
-    "email": "dulam1231@gmail.com",
-    "phoneNumber": "9314-9999",
-    "address": "Улаанбаатар, Баянгол, 9-р хороо, 81-р байр, 24 тоот.",
-    "contractEndDate": "2020-11-09"
-  },
-  {
-    "id": 7,
-    "contractNo": "contract_000007",
-    "code": "1910007",
-    "userName": "БатСүх Цэлмэг",
-    "registerNo": "УИ91052222",
-    "email": "tselmeg1231@gmail.com",
-    "phoneNumber": "9211-2999",
-    "address": "Улаанбаатар, Сонгино Хайрхан, 10-р хороо, 81-р байр, 24 тоот.",
-    "contractEndDate": "2020-11-09"
-  },
-  {
-    "id": 8,
-    "contractNo": "contract_000008",
-    "code": "1910008",
-    "userName": "Гүн Ламбо",
-    "registerNo": "УИ95103222",
-    "email": "bat1231@gmail.com",
-    "phoneNumber": "9114-2999",
-    "address": "Улаанбаатар, Налайх, 10-р хороо, 81-р байр, 24 тоот.",
-    "contractEndDate": "2020-11-09"
-  },
-  {
-    "id": 9,
-    "contractNo": "contract_000009",
-    "code": "1910009",
-    "userName": "Ламбо Дулам",
-    "registerNo": "УИ95102422",
-    "email": "bat1231@gmail.com",
-    "phoneNumber": "8014-2999",
-    "address": "Улаанбаатар, Сүхбаатар, 10-р хороо, 81-р байр, 24 тоот.",
-    "contractEndDate": "2020-11-09"
-  },
-  {
-    "id": 10,
-    "contractNo": "contract_000010",
-    "code": "1910010",
-    "userName": "Ламбо Намб",
-    "registerNo": "УИ95012222",
-    "email": "bat1231@gmail.com",
-    "phoneNumber": "8914-2999",
-    "address": "Улаанбаатар, Чингэлтэй, 10-р хороо, 81-р байр, 24 тоот.",
-    "contractEndDate": "2020-11-09"
-  },
-  {
-    "id": 11,
-    "contractNo": "contract_000011",
-    "code": "1910011",
-    "userName": "Ану Бат",
-    "registerNo": "УИ95102371",
-    "email": "bat1231@gmail.com",
-    "phoneNumber": "8814-2999",
-    "address": "Улаанбаатар, Налайх, 10-р хороо, 81-р байр, 24 тоот.",
-    "contractEndDate": "2020-11-09"
-  }
-],
-  "users": [
+  "docs": [
     {
-    "id" : 1,
-    "contractNo": "contract_000011",
-    "code": "1910011",
-    "userName": "Ану Бат",
-    "registerNo": "ЧР84060171",
-    "email": "bat1231@gmail.com",
-    "phoneNumber": "8814-2999"
+      "code": "root",
+      "name": "root",
+      "children": [
+        {
+          "parentId": null,
+          "ancestors": [
+            null
+          ],
+          "capacity": 22200,
+          "status": "active",
+          "address": {
+            "locations": [
+              "5e183fd8248bd02564a83ab6",
+              "5e183fd9248bd02564a83adf"
+            ],
+            "address": "1b",
+            "fullAddress": "Улаанбаатар, Сүхбаатар, 1b"
+          },
+          "subStationCount": 0,
+          "createdUser": {
+            "_id": "5e183fcb8ba4992529bee22c",
+            "email": "sbauirbek@gmail.com",
+            "firstName": "Byek",
+            "lastName": "S"
+          },
+          "_id": "5e1bfe4ee7f3bb357bfb0812",
+          "name": "test1",
+          "code": "test1",
+          "cycleId": {
+            "status": "active",
+            "_id": "5e09851be3da753fd0b4a4d2",
+            "name": "R1 - Аж ахуй нэгж",
+            "entryDay": 7,
+            "entryDuration": 3,
+            "billingDay": 10,
+            "billingDuration": 10,
+            "paymentDueDay": 20,
+            "createdUser": "5e183fcb8ba4992529bee22c",
+            "createdAt": "2020-01-10T09:11:52.941Z",
+            "updatedAt": "2020-01-10T09:11:52.941Z",
+            "__v": 0
+          },
+          "createdAt": "2020-01-13T05:21:18.284Z",
+          "updatedAt": "2020-01-14T04:14:46.555Z",
+          "__v": 0,
+          "children": []
+        },
+        {
+          "parentId": null,
+          "ancestors": [
+            null
+          ],
+          "capacity": 2000,
+          "status": "active",
+          "address": {
+            "locations": [
+              "5e183fd8248bd02564a83ab6",
+              "5e183fd9248bd02564a83ae5"
+            ],
+            "address": "t1",
+            "fullAddress": "Улаанбаатар, Сонгинохайрхан, t1"
+          },
+          "subStationCount": 2,
+          "createdUser": {
+            "_id": "5e183fcb8ba4992529bee22c",
+            "email": "sbauirbek@gmail.com",
+            "firstName": "Byek",
+            "lastName": "S"
+          },
+          "_id": "5e1e8c21e7f3bb357bfb0ea2",
+          "name": "root1",
+          "code": "root1",
+          "cycleId": {
+            "status": "active",
+            "_id": "5e09851ce3da753fd0b4a4d3",
+            "name": "R1 - Ахуйн хэрэглэгч",
+            "entryDay": 7,
+            "entryDuration": 3,
+            "billingDay": 10,
+            "billingDuration": 10,
+            "paymentDueDay": 20,
+            "createdUser": "5e183fcb8ba4992529bee22c",
+            "createdAt": "2020-01-10T09:11:53.009Z",
+            "updatedAt": "2020-01-10T09:11:53.009Z",
+            "__v": 0
+          },
+          "createdAt": "2020-01-15T03:50:57.557Z",
+          "updatedAt": "2020-01-15T03:59:42.125Z",
+          "__v": 0,
+          "children": [
+            {
+              "parentId": "5e1e8c21e7f3bb357bfb0ea2",
+              "ancestors": [
+                null,
+                "5e1e8c21e7f3bb357bfb0ea2"
+              ],
+              "capacity": 2412,
+              "status": "active",
+              "address": {
+                "locations": [
+                  "5e183fd8248bd02564a83ab6",
+                  "5e183fd9248bd02564a83ae3"
+                ],
+                "address": "t2",
+                "fullAddress": "Улаанбаатар, Баянгол, t2"
+              },
+              "subStationCount": 0,
+              "createdUser": {
+                "_id": "5e183fcb8ba4992529bee22c",
+                "email": "sbauirbek@gmail.com",
+                "firstName": "Byek",
+                "lastName": "S"
+              },
+              "_id": "5e1e8e2ee7f3bb357bfb0eaf",
+              "name": "level3",
+              "code": "level3",
+              "cycleId": {
+                "status": "not active",
+                "_id": "5e098520e3da753fd0b4a4db",
+                "name": "R5 - Ахуйн хэрэглэгч",
+                "entryDay": 25,
+                "entryDuration": 5,
+                "billingDay": 1,
+                "billingDuration": 14,
+                "paymentDueDay": 15,
+                "createdUser": "5e183fcb8ba4992529bee22c",
+                "createdAt": "2020-01-10T09:11:53.067Z",
+                "updatedAt": "2020-01-13T01:34:31.964Z",
+                "__v": 0
+              },
+              "createdAt": "2020-01-15T03:59:42.121Z",
+              "updatedAt": "2020-01-15T03:59:42.121Z",
+              "__v": 0
+            }
+          ]
+        },
+        {
+          "parentId": null,
+          "ancestors": [
+            null
+          ],
+          "capacity": 10000,
+          "status": "active",
+          "address": {
+            "locations": [
+              "5e183fd8248bd02564a83ab7",
+              "5e183fd9248bd02564a83add"
+            ],
+            "address": "b3",
+            "fullAddress": "Сэлэнгэ, Мандал, b3"
+          },
+          "subStationCount": 5,
+          "createdUser": {
+            "_id": "5e183fcb8ba4992529bee22c",
+            "email": "sbauirbek@gmail.com",
+            "firstName": "Byek",
+            "lastName": "S"
+          },
+          "_id": "5e1e8c62e7f3bb357bfb0ea7",
+          "name": "root2",
+          "code": "root2",
+          "cycleId": {
+            "status": "active",
+            "_id": "5e09851ce3da753fd0b4a4d4",
+            "name": "R2 - Аж ахуйн нэгж",
+            "entryDay": 8,
+            "entryDuration": 2,
+            "billingDay": 10,
+            "billingDuration": 10,
+            "paymentDueDay": 20,
+            "createdUser": "5e183fcb8ba4992529bee22c",
+            "createdAt": "2020-01-10T09:11:53.016Z",
+            "updatedAt": "2020-01-10T09:11:53.016Z",
+            "__v": 0
+          },
+          "createdAt": "2020-01-15T03:52:02.938Z",
+          "updatedAt": "2020-01-15T04:08:32.045Z",
+          "__v": 0,
+          "children": [
+            {
+              "parentId": "5e1e8c62e7f3bb357bfb0ea7",
+              "ancestors": [
+                null,
+                "5e1e8c62e7f3bb357bfb0ea7"
+              ],
+              "capacity": 5423,
+              "status": "active",
+              "address": {
+                "locations": [
+                  "5e183fd8248bd02564a83ab6",
+                  "5e183fd9248bd02564a83ae3"
+                ],
+                "address": "TR",
+                "fullAddress": "Улаанбаатар, Баянгол, TR"
+              },
+              "subStationCount": 3,
+              "createdUser": {
+                "_id": "5e183fcb8ba4992529bee22c",
+                "email": "sbauirbek@gmail.com",
+                "firstName": "Byek",
+                "lastName": "S"
+              },
+              "_id": "5e1e8e64e7f3bb357bfb0eb3",
+              "name": "level2_2",
+              "code": "level2_2",
+              "cycleId": {
+                "status": "active",
+                "_id": "5e09851fe3da753fd0b4a4da",
+                "name": "R5 - Аж ахуй нэгж",
+                "entryDay": 25,
+                "entryDuration": 5,
+                "billingDay": 1,
+                "billingDuration": 14,
+                "paymentDueDay": 15,
+                "createdUser": "5e183fcb8ba4992529bee22c",
+                "createdAt": "2020-01-10T09:11:53.063Z",
+                "updatedAt": "2020-01-10T09:11:53.063Z",
+                "__v": 0
+              },
+              "createdAt": "2020-01-15T04:00:36.177Z",
+              "updatedAt": "2020-01-15T04:08:32.045Z",
+              "__v": 0,
+              "children": [
+                {
+                  "parentId": "5e1e8e64e7f3bb357bfb0eb3",
+                  "ancestors": [
+                    null,
+                    "5e1e8c62e7f3bb357bfb0ea7",
+                    "5e1e8e64e7f3bb357bfb0eb3"
+                  ],
+                  "capacity": 454,
+                  "status": "active",
+                  "address": {
+                    "locations": [
+                      "5e183fd8248bd02564a83ab6",
+                      "5e183fd9248bd02564a83ae3"
+                    ],
+                    "address": "gjgjgj",
+                    "fullAddress": "Улаанбаатар, Баянгол, gjgjgj"
+                  },
+                  "subStationCount": 0,
+                  "createdUser": {
+                    "_id": "5e183fcb8ba4992529bee22c",
+                    "email": "sbauirbek@gmail.com",
+                    "firstName": "Byek",
+                    "lastName": "S"
+                  },
+                  "_id": "5e1e8ec9e7f3bb357bfb0ebb",
+                  "name": "level3_1",
+                  "code": "level3_1",
+                  "cycleId": {
+                    "status": "active",
+                    "_id": "5e09851ce3da753fd0b4a4d4",
+                    "name": "R2 - Аж ахуйн нэгж",
+                    "entryDay": 8,
+                    "entryDuration": 2,
+                    "billingDay": 10,
+                    "billingDuration": 10,
+                    "paymentDueDay": 20,
+                    "createdUser": "5e183fcb8ba4992529bee22c",
+                    "createdAt": "2020-01-10T09:11:53.016Z",
+                    "updatedAt": "2020-01-10T09:11:53.016Z",
+                    "__v": 0
+                  },
+                  "createdAt": "2020-01-15T04:02:17.520Z",
+                  "updatedAt": "2020-01-15T04:02:17.520Z",
+                  "__v": 0
+                },
+                {
+                  "parentId": "5e1e8e64e7f3bb357bfb0eb3",
+                  "ancestors": [
+                    null,
+                    "5e1e8c62e7f3bb357bfb0ea7",
+                    "5e1e8e64e7f3bb357bfb0eb3"
+                  ],
+                  "capacity": 342,
+                  "status": "active",
+                  "address": {
+                    "locations": [
+                      "5e183fd8248bd02564a83ab6",
+                      "5e183fd9248bd02564a83ae3"
+                    ],
+                    "address": "lslls",
+                    "fullAddress": "Улаанбаатар, Баянгол, lslls"
+                  },
+                  "subStationCount": 1,
+                  "createdUser": {
+                    "_id": "5e183fcb8ba4992529bee22c",
+                    "email": "sbauirbek@gmail.com",
+                    "firstName": "Byek",
+                    "lastName": "S"
+                  },
+                  "_id": "5e1e9008e7f3bb357bfb0ec0",
+                  "name": "level3_2",
+                  "code": "level3_2",
+                  "cycleId": {
+                    "status": "active",
+                    "_id": "5e09851de3da753fd0b4a4d5",
+                    "name": "R2 - Ахуйн хэрэглэгч",
+                    "entryDay": 8,
+                    "entryDuration": 2,
+                    "billingDay": 10,
+                    "billingDuration": 10,
+                    "paymentDueDay": 20,
+                    "createdUser": "5e183fcb8ba4992529bee22c",
+                    "createdAt": "2020-01-10T09:11:53.024Z",
+                    "updatedAt": "2020-01-10T09:11:53.024Z",
+                    "__v": 0
+                  },
+                  "createdAt": "2020-01-15T04:07:36.230Z",
+                  "updatedAt": "2020-01-15T04:08:32.045Z",
+                  "__v": 0,
+                  "children": [
+                    {
+                      "parentId": "5e1e9008e7f3bb357bfb0ec0",
+                      "ancestors": [
+                        null,
+                        "5e1e8c62e7f3bb357bfb0ea7",
+                        "5e1e8e64e7f3bb357bfb0eb3",
+                        "5e1e9008e7f3bb357bfb0ec0"
+                      ],
+                      "capacity": 230,
+                      "status": "active",
+                      "address": {
+                        "locations": [
+                          "5e183fd8248bd02564a83ab6",
+                          "5e183fd9248bd02564a83adf",
+                          "5e1c0b90a040a43e9586b4c2"
+                        ],
+                        "address": "dd",
+                        "fullAddress": "Улаанбаатар, Сүхбаатар, 9-р хороо, dd"
+                      },
+                      "subStationCount": 0,
+                      "createdUser": {
+                        "_id": "5e183fcb8ba4992529bee22c",
+                        "email": "sbauirbek@gmail.com",
+                        "firstName": "Byek",
+                        "lastName": "S"
+                      },
+                      "_id": "5e1e9040e7f3bb357bfb0ec4",
+                      "name": "level4",
+                      "code": "level4",
+                      "cycleId": {
+                        "status": "active",
+                        "_id": "5e09851be3da753fd0b4a4d2",
+                        "name": "R1 - Аж ахуй нэгж",
+                        "entryDay": 7,
+                        "entryDuration": 3,
+                        "billingDay": 10,
+                        "billingDuration": 10,
+                        "paymentDueDay": 20,
+                        "createdUser": "5e183fcb8ba4992529bee22c",
+                        "createdAt": "2020-01-10T09:11:52.941Z",
+                        "updatedAt": "2020-01-10T09:11:52.941Z",
+                        "__v": 0
+                      },
+                      "createdAt": "2020-01-15T04:08:32.044Z",
+                      "updatedAt": "2020-01-15T04:08:32.044Z",
+                      "__v": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "parentId": "5e1e8c62e7f3bb357bfb0ea7",
+              "ancestors": [
+                null,
+                "5e1e8c62e7f3bb357bfb0ea7"
+              ],
+              "capacity": 1234,
+              "status": "active",
+              "address": {
+                "locations": [
+                  "5e183fd8248bd02564a83ab7",
+                  "5e183fd9248bd02564a83add"
+                ],
+                "address": "rrr",
+                "fullAddress": "Сэлэнгэ, Мандал, rrr"
+              },
+              "subStationCount": 0,
+              "createdUser": {
+                "_id": "5e183fcb8ba4992529bee22c",
+                "email": "sbauirbek@gmail.com",
+                "firstName": "Byek",
+                "lastName": "S"
+              },
+              "_id": "5e1e8e99e7f3bb357bfb0eb7",
+              "name": "level2_3",
+              "code": "level2_3",
+              "cycleId": {
+                "status": "active",
+                "_id": "5e09851ee3da753fd0b4a4d8",
+                "name": "R4 - Аж ахуй нэгж",
+                "entryDay": 18,
+                "entryDuration": 2,
+                "billingDay": 20,
+                "billingDuration": 10,
+                "paymentDueDay": 30,
+                "createdUser": "5e183fcb8ba4992529bee22c",
+                "createdAt": "2020-01-10T09:11:53.052Z",
+                "updatedAt": "2020-01-10T09:11:53.052Z",
+                "__v": 0
+              },
+              "createdAt": "2020-01-15T04:01:29.527Z",
+              "updatedAt": "2020-01-15T04:01:29.527Z",
+              "__v": 0
+            }
+          ]
+        }
+      ]
     }
   ]
 }
